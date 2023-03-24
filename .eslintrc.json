@@ -1,6 +1,9 @@
 // https://eslint.org/docs/latest/use/getting-started
 // 配置文件优先级：.eslintrc.js > .eslintrc.yaml > .eslintrc.yml > .eslintrc.json > .eslintrc > package.json
 {
+    "parserOptions": {
+        "ecmaVersion": 2015
+    },
     "rules": {
         "no-unused-vars": "error"
     }
