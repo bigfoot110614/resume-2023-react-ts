@@ -1,0 +1,7 @@
+// https://eslint.org/docs/latest/use/getting-started
+// 配置文件优先级：.eslintrc.js > .eslintrc.yaml > .eslintrc.yml > .eslintrc.json > .eslintrc > package.json
+{
+    "rules": {
+        "no-unused-vars": "error"
+    }
+}
